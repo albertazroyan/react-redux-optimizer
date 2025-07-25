@@ -1,0 +1,32 @@
+{
+  "name": "react-redux-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize React-Redux selector performance with useSyncExternalStore and memoization.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "src"],
+  "keywords": ["react", "redux", "performance", "memo", "selector", "optimization"],
+  "author": "Albert",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-redux": "^7 || ^8"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.45.1"
+  }
+}
