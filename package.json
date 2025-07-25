@@ -5,12 +5,23 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "src"],
-  "keywords": ["react", "redux", "performance", "memo", "selector", "optimization"],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "react",
+    "redux",
+    "performance",
+    "memo",
+    "selector",
+    "optimization"
+  ],
   "author": "Albert",
   "license": "MIT",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/albertazroyan/react-redux-optimizer"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17 || ^18",
@@ -28,5 +39,8 @@
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "rollup": "^4.45.1"
+  },
+  "dependencies": {
+    "react-redux-optimizer": "^1.0.0"
   }
 }
